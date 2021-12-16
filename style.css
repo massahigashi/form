@@ -1,0 +1,180 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 0.875rem;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+input[type="text"] {
+    padding: 0;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: navy;
+    height: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relavive;
+}
+
+#header .title {
+    color: white;
+    font-size: 2rem;
+}
+
+#top-nav {
+    top: 25px;
+    right: 25%;
+}
+
+#top-nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#top-nav ul li {
+    color: white;
+}
+
+/*body*/
+.site-width {
+    margin: 0 auto;
+    width: 80%;
+    background: lightgray;
+}
+
+.form-section {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.form-section .form-title {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.form-section .form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form .form-container {
+    margin-bottom: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form .label {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.form-container .name {
+    display: block;
+    border: 1px solid black;
+    padding: 5px 2px;
+    width: 25%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.form-container .confirm-name {
+    display: block;
+    padding: 5px 2px;
+    width: 25%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.form-container .email {
+    display: block;
+    border: 1px solid black;
+    padding: 5px 2px;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.form-container .confirm-email {
+    display: block;
+    padding: 5px 2px;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.btn-list {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.cancel-btn a {
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 1rem;
+    padding: 10px 15px;
+    margin-right: 40px;
+    cursor: default;
+}
+
+.textarea {
+    font-size: 1rem;
+}
+.btn {
+    background: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+/*エラーの場合*/
+
+.err-msg {
+    color: red;
+    margin: 5px 0;
+}
+.err {
+    color: red;
+}
+
+.back-err {
+    background-color: red;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    width: 100%;
+    background: navy;
+    padding: 20px 0;
+}
+
+
+
